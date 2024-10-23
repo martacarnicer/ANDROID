@@ -1,0 +1,496 @@
+INSERTS CLASES POR DÍAS
+
+
+-- Clases para el centro 1 en lunes
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Avanzado', 20, 'Lunes', '08:00', '09:00', 'Clase avanzada de yoga para mejorar la flexibilidad.', 1, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit', 15, 'Lunes', '09:30', '10:30', 'Entrenamiento de alta intensidad para mejorar la resistencia.', 1, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates', 12, 'Lunes', '11:00', '12:00', 'Ejercicios de bajo impacto para fortalecer el core.', 1, 3);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba', 30, 'Lunes', '12:30', '13:30', 'Baile aeróbico para quemar calorías y divertirse.', 1, 4);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo', 15, 'Lunes', '14:00', '15:00', 'Clase de boxeo para mejorar la técnica y la resistencia.', 1, 5);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Lunes', '16:00', '17:00', 'Entrenamiento cardiovascular en bicicleta.', 1, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Lunes', '17:30', '18:30', 'Tonificación con pesas para todo el cuerpo.', 1, 12);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga y Meditación', 20, 'Lunes', '19:00', '20:00', 'Clase de yoga con enfoque en la relajación y meditación.', 1, 1);
+
+
+
+
+-- Clases para el centro 2 en lunes
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Básico', 20, 'Lunes', '08:30', '09:30', 'Clase de yoga para principiantes.', 2, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit', 15, 'Lunes', '10:00', '11:00', 'Entrenamiento de alta intensidad para mejorar la resistencia.', 2, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates Avanzado', 12, 'Lunes', '11:30', '12:30', 'Clase avanzada de pilates para mejorar la postura.', 2, 9);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba Fitness', 30, 'Lunes', '13:00', '14:00', 'Baila y diviértete mientras quemas calorías.', 2, 4);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo Avanzado', 15, 'Lunes', '15:00', '16:00', 'Clase de boxeo para avanzados.', 2, 13);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Lunes', '16:30', '17:30', 'Entrenamiento cardiovascular de alta intensidad en bicicleta.', 2, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga y Meditación', 20, 'Lunes', '18:00', '19:00', 'Combina yoga y meditación para la relajación.', 2, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Lunes', '19:30', '20:30', 'Tonificación con pesas y ejercicios de resistencia.', 2, 12);
+
+
+-- Clases para el centro 3 en lunes
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Avanzado', 20, 'Lunes', '08:00', '09:00', 'Clase de yoga avanzada para mejorar la flexibilidad y la respiración.', 3, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit Básico', 15, 'Lunes', '09:30', '10:30', 'Clase de CrossFit para principiantes.', 3, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates', 12, 'Lunes', '11:00', '12:00', 'Ejercicios de pilates para tonificar y fortalecer.', 3, 3);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba', 30, 'Lunes', '12:30', '13:30', 'Baila al ritmo de la música y diviértete.', 3, 4);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo', 15, 'Lunes', '14:00', '15:00', 'Entrenamiento de boxeo para mejorar la resistencia y la técnica.', 3, 5);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Lunes', '15:30', '16:30', 'Clase de ciclismo indoor para quemar calorías.', 3, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Lunes', '17:00', '18:00', 'Entrenamiento de resistencia con pesas.', 3, 12);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga y Meditación', 20, 'Lunes', '18:30', '19:30', 'Relájate y estira con esta clase de yoga y meditación.', 3, 1);
+
+
+
+
+
+
+-- Clases para el centro 1 en martes
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates Básico', 15, 'Martes', '08:00', '09:00', 'Clase de pilates para fortalecer el core y mejorar la flexibilidad.', 1, 3);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('HIIT', 20, 'Martes', '09:30', '10:15', 'Entrenamiento interválico de alta intensidad para quemar calorías.', 1, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Martes', '10:30', '11:30', 'Entrenamiento cardiovascular en bicicleta.', 1, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit', 15, 'Martes', '12:00', '13:00', 'Entrenamiento funcional de alta intensidad.', 1, 8);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba', 30, 'Martes', '13:30', '14:30', 'Clase de baile para divertirse y mantenerse en forma.', 1, 4);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo', 20, 'Martes', '15:00', '16:00', 'Mejora tu técnica de boxeo mientras haces un buen entrenamiento.', 1, 13);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Relajante', 20, 'Martes', '17:00', '18:00', 'Clase de yoga enfocada en la relajación y la respiración.', 1, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Combat', 25, 'Martes', '18:30', '19:30', 'Clase de artes marciales para tonificar y liberar estrés.', 1, 5);
+
+
+
+
+
+
+-- Clases para el centro 2 en martes
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Dinámico', 20, 'Martes', '08:30', '09:30', 'Una clase de yoga que combina movimientos rápidos para aumentar la energía.', 2, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning Intenso', 25, 'Martes', '10:00', '11:00', 'Entrenamiento de ciclismo indoor de alta intensidad.', 2, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates Avanzado', 15, 'Martes', '11:15', '12:15', 'Clase avanzada de pilates para mejorar la postura y la fuerza.', 2, 9);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit', 20, 'Martes', '12:30', '13:30', 'Entrenamiento funcional para mejorar la fuerza y la resistencia.', 2, 8);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba Dance', 30, 'Martes', '14:00', '15:00', 'Baila y disfruta mientras quemas calorías.', 2, 11);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Martes', '15:30', '16:30', 'Tonificación muscular con pesas y barras.', 2, 12);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo para Principiantes', 15, 'Martes', '17:00', '18:00', 'Clase de boxeo para aprender las bases del deporte.', 2, 13);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga y Meditación', 20, 'Martes', '18:30', '19:30', 'Relájate y medita con esta clase de yoga.', 2, 1);
+
+
+
+
+
+
+-- Clases para el centro 3 en martes
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Vinyasa', 20, 'Martes', '08:00', '09:00', 'Clase de yoga fluido para mejorar la flexibilidad y la fuerza.', 3, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit Express', 15, 'Martes', '09:30', '10:15', 'Entrenamiento corto e intenso de CrossFit.', 3, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates', 12, 'Martes', '10:30', '11:30', 'Ejercicios de pilates para mejorar la fuerza y el equilibrio.', 3, 3);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba', 30, 'Martes', '12:00', '13:00', 'Diviértete con una clase de baile aeróbico.', 3, 4);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo', 15, 'Martes', '13:30', '14:30', 'Entrenamiento de boxeo para mejorar la técnica.', 3, 5);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Martes', '15:00', '16:00', 'Clase de ciclismo indoor para todos los niveles.', 3, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Martes', '16:30', '17:30', 'Clase de resistencia muscular con pesas.', 3, 12);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('HIIT', 20, 'Martes', '18:00', '19:00', 'Entrenamiento de alta intensidad con intervalos.', 3, 2);
+
+
+
+
+
+-- Clases para el centro 1 en miércoles
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Vinyasa', 20, 'Miércoles', '08:00', '09:00', 'Clase de yoga fluido para mejorar la flexibilidad y la fuerza.', 1, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('HIIT', 20, 'Miércoles', '09:15', '10:00', 'Entrenamiento de alta intensidad con intervalos cortos.', 1, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates', 15, 'Miércoles', '10:30', '11:30', 'Clase de pilates para tonificar y fortalecer el cuerpo.', 1, 3);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Miércoles', '12:00', '13:00', 'Clase de ciclismo indoor para mejorar la resistencia.', 1, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit', 20, 'Miércoles', '13:15', '14:15', 'Entrenamiento funcional de alta intensidad.', 1, 8);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba Fitness', 30, 'Miércoles', '14:30', '15:30', 'Baila y mantente en forma con esta clase de Zumba.', 1, 4);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Miércoles', '16:00', '17:00', 'Tonificación muscular con pesas y barras.', 1, 12);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo Avanzado', 15, 'Miércoles', '18:00', '19:00', 'Clase de boxeo para mejorar la técnica avanzada.', 1, 13);
+
+
+
+
+
+-- Clases para el centro 2 en miércoles
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga y Meditación', 20, 'Miércoles', '08:30', '09:30', 'Relájate y estira con una clase de yoga enfocada en la meditación.', 2, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit Express', 15, 'Miércoles', '10:00', '10:45', 'Entrenamiento funcional en sesiones cortas y de alta intensidad.', 2, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates Avanzado', 12, 'Miércoles', '11:00', '12:00', 'Clase avanzada de pilates para fortalecer el core y mejorar la postura.', 2, 9);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning Intenso', 25, 'Miércoles', '12:30', '13:30', 'Entrenamiento de ciclismo indoor de alta intensidad.', 2, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba Dance', 30, 'Miércoles', '14:00', '15:00', 'Disfruta de una clase de Zumba mientras quemas calorías.', 2, 11);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Combat', 20, 'Miércoles', '15:30', '16:30', 'Clase de entrenamiento inspirado en las artes marciales.', 2, 9);
+
+
+
+
+
+-- Clases para el centro 3 en miércoles
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Dinámico', 20, 'Miércoles', '08:00', '09:00', 'Una clase de yoga que combina movimientos rápidos y poses fluidas.', 3, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit Básico', 15, 'Miércoles', '09:30', '10:15', 'Clase de CrossFit para principiantes que desean mejorar su forma física.', 3, 8);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates', 12, 'Miércoles', '10:30', '11:30', 'Ejercicios de pilates para fortalecer y tonificar los músculos.', 3, 3);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba', 30, 'Miércoles', '12:00', '13:00', 'Clase de Zumba para divertirse mientras haces ejercicio.', 3, 4);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo', 20, 'Miércoles', '13:30', '14:30', 'Clase de boxeo para mejorar la técnica y la resistencia.', 3, 5);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Miércoles', '15:00', '16:00', 'Entrenamiento de ciclismo indoor para quemar calorías.', 3, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Miércoles', '16:30', '17:30', 'Clase de entrenamiento con pesas para todo el cuerpo.', 3, 12);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('HIIT', 20, 'Miércoles', '18:00', '19:00', 'Entrenamiento de intervalos de alta intensidad para mejorar la resistencia.', 3, 2);
+
+
+
+
+-- Clases para el centro 1 en jueves
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Suave', 20, 'Jueves', '08:00', '09:00', 'Clase de yoga suave para estiramiento y relajación.', 1, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit', 15, 'Jueves', '09:30', '10:30', 'Entrenamiento funcional de alta intensidad.', 1, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Jueves', '10:45', '11:45', 'Clase de ciclismo indoor para mejorar la resistencia.', 1, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates Básico', 12, 'Jueves', '12:00', '13:00', 'Ejercicios de pilates para fortalecer el core.', 1, 3);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba', 30, 'Jueves', '13:15', '14:15', 'Diviértete bailando con una clase de Zumba para todas las edades.', 1, 4);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo', 20, 'Jueves', '15:00', '16:00', 'Clase de boxeo para mejorar la técnica y resistencia.', 1, 13);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Jueves', '16:30', '17:30', 'Tonificación con pesas para fortalecer todo el cuerpo.', 1, 12);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga y Meditación', 20, 'Jueves', '18:00', '19:00', 'Relájate y conecta con tu respiración en esta clase de yoga.', 1, 1);
+
+
+
+
+
+-- Clases para el centro 2 en jueves
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Dinámico', 20, 'Jueves', '08:30', '09:30', 'Una clase de yoga que combina movimientos fluidos.', 2, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('HIIT', 20, 'Jueves', '10:00', '10:45', 'Entrenamiento de intervalos de alta intensidad.', 2, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning Intenso', 25, 'Jueves', '11:00', '12:00', 'Entrenamiento cardiovascular en bicicleta de alta intensidad.', 2, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates Avanzado', 12, 'Jueves', '12:15', '13:15', 'Clase avanzada de pilates para mejorar la postura.', 2, 9);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba Dance', 30, 'Jueves', '13:30', '14:30', 'Baila al ritmo de la música y mantente en forma.', 2, 11);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo para Principiantes', 15, 'Jueves', '15:00', '16:00', 'Clase de boxeo ideal para principiantes.', 2, 13);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Combat', 20, 'Jueves', '16:30', '17:30', 'Entrenamiento inspirado en las artes marciales.', 2, 5);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Relajante', 20, 'Jueves', '18:00', '19:00', 'Clase de yoga enfocada en la relajación profunda.', 2, 1);
+
+
+
+
+
+-- Clases para el centro 3 en jueves
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Vinyasa', 20, 'Jueves', '08:00', '09:00', 'Clase de yoga que fluye entre las posturas.', 3, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit Express', 15, 'Jueves', '09:30', '10:15', 'Entrenamiento funcional corto e intenso.', 3, 8);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates', 12, 'Jueves', '10:30', '11:30', 'Clase de pilates para tonificar y fortalecer el cuerpo.', 3, 3);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Jueves', '12:00', '13:00', 'Clase de ciclismo indoor para quemar calorías.', 3, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba', 30, 'Jueves', '13:15', '14:15', 'Diviértete bailando con esta clase de Zumba.', 3, 4);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo', 20, 'Jueves', '14:30', '15:30', 'Clase de boxeo para mejorar la técnica y el cardio.', 3, 5);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Jueves', '16:00', '17:00', 'Entrenamiento de resistencia muscular con pesas.', 3, 12);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('HIIT', 20, 'Jueves', '18:00', '19:00', 'Entrenamiento de alta intensidad para mejorar la condición física.', 3, 2);
+
+
+
+
+
+
+-- Clases para el centro 1 en viernes
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Suave', 20, 'Viernes', '08:00', '09:00', 'Clase de yoga suave para relajar el cuerpo y la mente.', 1, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit', 15, 'Viernes', '09:30', '10:30', 'Entrenamiento de alta intensidad para todos los niveles.', 1, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates', 15, 'Viernes', '11:00', '12:00', 'Ejercicios de pilates para mejorar la flexibilidad.', 1, 3);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba', 25, 'Viernes', '12:30', '13:30', 'Baila y diviértete con una clase de Zumba energética.', 1, 4);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Viernes', '18:00', '19:00', 'Tonificación muscular con pesas para todo el cuerpo.', 1, 12);
+
+
+
+
+-- Clases para el centro 2 en viernes
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Dinámico', 20, 'Viernes', '08:30', '09:30', 'Fluye entre posturas con esta clase de yoga dinámico.', 2, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('HIIT', 20, 'Viernes', '10:00', '10:45', 'Entrenamiento de intervalos de alta intensidad para quemar calorías.', 2, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Viernes', '11:00', '12:00', 'Ciclismo indoor para mejorar la resistencia.', 2, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates Básico', 15, 'Viernes', '12:15', '13:15', 'Clase de pilates para principiantes.', 2, 9);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo', 20, 'Viernes', '17:00', '18:00', 'Clase de boxeo para mejorar la técnica y la condición física.', 2, 13);
+
+
+
+
+
+-- Clases para el centro 3 en viernes
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Vinyasa', 20, 'Viernes', '08:00', '09:00', 'Una clase de yoga fluida para empezar el día.', 3, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit Básico', 15, 'Viernes', '09:30', '10:30', 'Entrenamiento de CrossFit ideal para principiantes.', 3, 8);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba Fitness', 25, 'Viernes', '11:00', '12:00', 'Clase de baile aeróbico para mantenerte en forma.', 3, 11);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Viernes', '12:30', '13:30', 'Tonificación y resistencia muscular.', 3, 12);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Viernes', '18:00', '19:00', 'Ciclismo indoor para quemar calorías y mejorar la resistencia.', 3, 10);
+
+
+
+
+-- Clases para el centro 1 en sábado
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga y Meditación', 20, 'Sábado', '09:00', '10:00', 'Relájate y medita con una clase de yoga suave.', 1, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit', 15, 'Sábado', '10:30', '11:30', 'Entrenamiento funcional de alta intensidad.', 1, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates', 12, 'Sábado', '12:00', '13:00', 'Ejercicios de pilates para fortalecer el core.', 1, 3);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba', 25, 'Sábado', '17:00', '18:00', 'Baila al ritmo de la música en esta clase de Zumba.', 1, 4);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Sábado', '18:30', '19:30', 'Tonificación muscular con pesas para todos los niveles.', 1, 12);
+
+
+
+
+
+-- Clases para el centro 2 en sábado
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Dinámico', 20, 'Sábado', '08:30', '09:30', 'Fluye entre posturas con esta clase de yoga.', 2, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('HIIT', 20, 'Sábado', '10:00', '10:45', 'Entrenamiento de intervalos de alta intensidad.', 2, 2);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Sábado', '11:00', '12:00', 'Entrenamiento cardiovascular en bicicleta.', 2, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates Básico', 15, 'Sábado', '12:30', '13:30', 'Clase de pilates para principiantes.', 2, 9);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo', 20, 'Sábado', '17:00', '18:00', 'Entrenamiento de boxeo para mejorar la técnica.', 2, 13);
+
+
+
+
+-- Clases para el centro 3 en sábado
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Vinyasa', 20, 'Sábado', '08:00', '09:00', 'Fluye entre posturas con esta clase de yoga.', 3, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('CrossFit Express', 15, 'Sábado', '09:30', '10:15', 'Entrenamiento corto e intenso de CrossFit.', 3, 8);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba Fitness', 25, 'Sábado', '11:00', '12:00', 'Clase de baile aeróbico para mantenerse en forma.', 3, 11);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Sábado', '12:30', '13:30', 'Tonificación con pesas y ejercicios de resistencia.', 3, 12);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Sábado', '18:00', '19:00', 'Clase de ciclismo indoor para todos los niveles.', 3, 10);
+
+
+
+
+-- Clases para el centro 1 en domingo
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Suave', 20, 'Domingo', '09:00', '10:00', 'Estira y relájate con esta clase de yoga suave.', 1, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba', 25, 'Domingo', '10:30', '11:30', 'Baila y diviértete con Zumba.', 1, 4);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Body Pump', 20, 'Domingo', '12:00', '13:00', 'Tonificación muscular para el cuerpo.', 1, 12);
+
+
+
+
+-- Clases para el centro 2 en domingo
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Relajante', 20, 'Domingo', '09:30', '10:30', 'Relaja cuerpo y mente con esta clase de yoga.', 2, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Spinning', 25, 'Domingo', '11:00', '12:00', 'Clase de ciclismo indoor para quemar calorías.', 2, 10);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Pilates', 12, 'Domingo', '12:30', '13:30', 'Fortalece tu core con ejercicios de pilates.', 2, 3);
+
+
+
+-- Clases para el centro 3 en domingo
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Yoga Dinámico', 20, 'Domingo', '09:00', '10:00', 'Clase de yoga con movimiento para activar el cuerpo.', 3, 1);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Zumba Fitness', 25, 'Domingo', '10:30', '11:30', 'Baila al ritmo de la música y quema calorías.', 3, 11);
+
+INSERT INTO clase (nombre_clase, capacidad_maxima, dia_semana, hora_inicio, hora_fin, descripcion, id_centro, id_instructor)
+VALUES ('Boxeo', 15, 'Domingo', '12:00', '13:00', 'Clase de boxeo para mejorar la técnica.', 3, 13);
+
+

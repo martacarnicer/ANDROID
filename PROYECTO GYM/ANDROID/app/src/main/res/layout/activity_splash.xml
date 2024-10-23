@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E0E0E0"> <!-- Fondo claro -->
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo2" /> <!-- Asegúrate de que este logo esté en la carpeta 'drawable' -->
+
+    <TextView
+        android:id="@+id/motivationalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supera tus límites"
+        android:textSize="28sp"
+        android:textColor="#343233"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+</LinearLayout>

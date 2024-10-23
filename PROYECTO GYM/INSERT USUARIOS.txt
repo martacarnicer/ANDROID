@@ -1,0 +1,11 @@
+INSERT INTO usuario (nombre, apellido, email, password, fecha_nacimiento, tipo_cuota, fecha_registro, telefono, estado_activo, id_rol) VALUES
+('Andrés', 'García', 'andres.garcia@example.com', 'password123', '12-03-1995', 'Básica', '01-10-2024', '123456789', true, 1),
+('Elena', 'Martínez', 'elena.martinez@example.com', 'password123', '22-07-1992', 'Premium', '01-10-2024', '987654321', true, 1),
+('Luis', 'Hernández', 'luis.hernandez@example.com', 'password123', '30-11-1988', 'Básica', '01-10-2024', '555666777', true, 1),
+('Sofía', 'Ramírez', 'sofia.ramirez@example.com', 'password123', '14-02-1994', 'Premium', '01-10-2024', '777888999', true, 1),
+('Marta', 'Torres', 'marta.torres@example.com', 'password123', '09-05-1991', 'Básica', '01-10-2024', '111222333', true, 1),
+('Diego', 'López', 'diego.lopez@example.com', 'password123', '25-12-1985', 'Premium', '01-10-2024', '444555666', true, 1),
+('Paula', 'Sánchez', 'paula.sanchez@example.com', 'password123', '18-09-1993', 'Básica', '01-10-2024', '333444555', true, 1),
+('Juan', 'Vásquez', 'juan.vasquez@example.com', 'password123', '06-06-1990', 'Premium', '01-10-2024', '222333444', true, 1),
+('Sara', 'Cruz', 'sara.cruz@example.com', 'password123', '21-08-1989', 'Básica', '01-10-2024', '666777888', true, 1),
+('Victor', 'Pérez', 'victor.perez@example.com', 'password123', '11-01-1987', 'Premium', '01-10-2024', '555888999', true, 1);

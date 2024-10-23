@@ -1,0 +1,17 @@
+INSERTS INSTRUCTORES
+
+
+INSERT INTO instructor (nombre_instructor, especialidad, email, telefono) VALUES
+('Carlos Fernández', 'Yoga', 'carlos.fernandez@example.com', '555-1234'),
+('Lucía Martínez', 'CrossFit', 'lucia.martinez@example.com', '555-5678'),
+('Roberto Gómez', 'Pilates', 'roberto.gomez@example.com', '555-8765'),
+('María López', 'Zumba', 'maria.lopez@example.com', '555-4321'),
+('Javier Hernández', 'Boxeo', 'javier.hernandez@example.com', '555-9876'),
+('Carlos Sánchez', 'CrossFit', 'carlos.sanchez@example.com', '123456789'),
+('Andrea González', 'Pilates', 'andrea.gonzalez@example.com', '111222333'),
+('Fernando Pérez', 'Spinning', 'fernando.perez@example.com', '444555666'),
+('Laura Díaz', 'Zumba', 'laura.diaz@example.com', '777888999'),
+('Sofía Torres', 'Body Pump', 'sofia.torres@example.com', '123123123'),
+('Pedro Ramírez', 'Boxeo', 'pedro.ramirez@example.com', '456456456'),
+('Carlos Mena', 'Entrenamiento Personal', 'carlos.mena@example.com', '987654321'),
+('Ana Ruiz', 'Nutrición', 'ana.ruiz@example.com', '654321987');

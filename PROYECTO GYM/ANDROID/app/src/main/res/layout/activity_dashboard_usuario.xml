@@ -1,0 +1,204 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutDashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec"
+    android:orientation="vertical"
+    tools:context=".activities.DashboardUsuarioActivity">
+
+    <!-- Sección superior con imagen de fondo y saludo -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:id="@+id/imageViewBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/top_background_modified_colors_v3" />
+    </FrameLayout>
+
+    <!-- Texto centrado con el saludo y el nombre del usuario -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="16dp"
+    android:paddingBottom="24dp">
+
+    <TextView
+        android:id="@+id/textViewSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="¡Hola de nuevo,"
+        android:textColor="#363166"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewNombreUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:text="Nombre!"
+        android:textColor="#363166"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+    <!-- Sección de los rectángulos con botones e íconos -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp"
+android:layout_marginTop="16dp">
+
+<!-- Rectángulo 1: Mis Reservas -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_btn_white"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginBottom="24dp"
+android:elevation="4dp">
+
+<ImageView
+    android:id="@+id/btnMisReservas"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:src="@drawable/icono_6" />
+
+<TextView
+    android:id="@+id/textMisReservas"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="16dp"
+    android:text="Mis Reservas"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black" />
+</LinearLayout>
+
+    <!-- Rectángulo 2: Mis Clases -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/background_btn_white"
+android:orientation="horizontal"
+android:padding="12dp"
+android:layout_marginBottom="24dp"
+    android:elevation="4dp">
+
+<ImageView
+android:id="@+id/btnMisClases"
+android:layout_width="40dp"
+android:layout_height="40dp"
+android:layout_gravity="center"
+android:src="@drawable/icono_2" />
+
+<TextView
+android:id="@+id/textMisClases"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:layout_marginStart="16dp"
+android:text="Clases"
+android:textSize="20sp"
+android:textStyle="bold"
+android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <!-- Rectángulo 3: Notificaciones con Punto Rojo para Notificaciones No Leídas -->
+    <LinearLayout
+        android:id="@+id/btnNotificacionesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_btn_white"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:elevation="4dp">
+
+        <ImageView
+            android:id="@+id/btnNotificaciones"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icono_4" />
+
+        <TextView
+            android:id="@+id/textNotificaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:text="Notificaciones"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <!-- Punto rojo para notificaciones no leídas -->
+        <View
+            android:id="@+id/puntoRojoNotificaciones"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center"
+            android:background="@drawable/red_circle"
+            android:visibility="gone"
+        android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+
+    <!-- Rectángulo 4: Mi Perfil -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/background_btn_white"
+android:orientation="horizontal"
+android:padding="12dp"
+android:elevation="4dp"
+android:layout_marginBottom="32dp">
+
+<ImageView
+    android:id="@+id/btnMiPerfil"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:src="@drawable/icono_1" />
+
+<TextView
+    android:id="@+id/textMiPerfil"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="16dp"
+    android:text="Mi Perfil"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black" />
+</LinearLayout>
+    </LinearLayout>
+
+    <!-- Botón Salir de la App -->
+<Button
+android:id="@+id/btnSalirApp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Salir de la App"
+android:textSize="16sp"
+android:textColor="#ffffff"
+android:background="@drawable/button_rounded_background"
+android:layout_marginTop="12dp"
+    android:layout_gravity="center"
+    android:padding="10dp" />
+    </LinearLayout>

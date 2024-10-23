@@ -1,0 +1,6 @@
+INSERTS CENTROS
+
+INSERT INTO centro (nombre_centro, ubicacion, telefono, capacidad_maxima, horario_apertura, horario_cierre, descripcion) VALUES
+('Centro Fitness 1', 'Calle Ejemplo 1, Ciudad', '555-1111', 100, '06:00', '22:00', 'Centro con diversas clases de fitness.'),
+('Centro Fitness 2', 'Calle Ejemplo 2, Ciudad', '555-2222', 150, '06:00', '22:00', 'Centro con un gran equipo de instructores.'),
+('Centro Fitness 3', 'Calle Ejemplo 3, Ciudad', '555-3333', 120, '06:00', '22:00', 'Centro especializado en yoga y pilates.');

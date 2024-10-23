@@ -1,0 +1,5 @@
+INSERT ROLES
+INSERT INTO rol (nombre_rol) VALUES
+('Usuario'),
+('Instructor'),
+('Admin');

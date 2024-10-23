@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GymProject</string>
+
+    <!-- Opciones de plan para el registro -->
+    <string-array name="plan_options">
+        <item>Selecciona un tipo de cuota</item>
+        <item>Básica</item>
+        <item>Premium</item>
+    </string-array>
+
+    <!-- Opciones de tipo de cuota para el perfil -->
+    <string-array name="tipo_cuota_options">
+        <item>Básica</item>
+        <item>Premium</item>
+    </string-array>
+</resources>

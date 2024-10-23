@@ -1,0 +1,74 @@
+INSERT INSCRIPCION
+
+
+// CAMBIAR !! AHORA EN DB POR PRUEBAS TENGO USUARIOS DEL 32 AL 41
+
+-- Inserts para el Usuario 11
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('01-10-2024', 1, 1);  -- Clase de Lunes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('02-10-2024', 1, 25); -- Clase de Martes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('03-10-2024', 1, 49); -- Clase de Miércoles
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('05-10-2024', 1, 121); -- Clase de Sábado
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('06-10-2024', 1, 133); -- Clase de Domingo
+
+-- Inserts para el Usuario 12
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('01-10-2024', 2, 2);  -- Clase de Lunes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('03-10-2024', 2, 50); -- Clase de Miércoles
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('04-10-2024', 2, 74); -- Clase de Jueves
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('05-10-2024', 2, 98); -- Clase de Viernes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('06-10-2024', 2, 122); -- Clase de Domingo
+
+-- Inserts para el Usuario 13
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('02-10-2024', 3, 26); -- Clase de Martes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('04-10-2024', 3, 75); -- Clase de Jueves
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('05-10-2024', 3, 99); -- Clase de Viernes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('06-10-2024', 3, 123); -- Clase de Domingo
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('07-10-2024', 3, 3); -- Clase de Lunes
+
+-- Inserts para el Usuario 14
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('01-10-2024', 4, 4);  -- Clase de Lunes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('02-10-2024', 4, 28); -- Clase de Martes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('05-10-2024', 4, 101); -- Clase de Sábado
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('06-10-2024', 4, 125); -- Clase de Domingo
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('03-10-2024', 4, 52); -- Clase de Miércoles
+
+-- Inserts para el Usuario 15
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('01-10-2024', 5, 5);  -- Clase de Lunes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('02-10-2024', 5, 29); -- Clase de Martes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('03-10-2024', 5, 53); -- Clase de Miércoles
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('05-10-2024', 5, 102); -- Clase de Sábado
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('06-10-2024', 5, 126); -- Clase de Domingo
+
+-- Inserts para el Usuario 16
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('01-10-2024', 6, 6);  -- Clase de Lunes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('03-10-2024', 6, 54); -- Clase de Miércoles
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('04-10-2024', 6, 78); -- Clase de Jueves
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('05-10-2024', 6, 103); -- Clase de Sábado
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('06-10-2024', 6, 127); -- Clase de Domingo
+
+-- Inserts para el Usuario 17
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('01-10-2024', 7, 7);  -- Clase de Lunes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('02-10-2024', 7, 31); -- Clase de Martes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('03-10-2024', 7, 55); -- Clase de Miércoles
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('05-10-2024', 7, 104); -- Clase de Sábado
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('06-10-2024', 7, 128); -- Clase de Domingo
+
+-- Inserts para el Usuario 18
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('01-10-2024', 8, 8);  -- Clase de Lunes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('03-10-2024', 8, 56); -- Clase de Miércoles
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('04-10-2024', 8, 80); -- Clase de Jueves
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('05-10-2024', 8, 105); -- Clase de Sábado
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('06-10-2024', 8, 129); -- Clase de Domingo
+
+-- Inserts para el Usuario 19
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('01-10-2024', 9, 9);  -- Clase de Lunes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('02-10-2024', 9, 33); -- Clase de Martes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('03-10-2024', 9, 57); -- Clase de Miércoles
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('05-10-2024', 9, 106); -- Clase de Sábado
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('06-10-2024', 9, 130); -- Clase de Domingo
+
+-- Inserts para el Usuario 20
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('01-10-2024', 10, 10); -- Clase de Lunes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('02-10-2024', 10, 34); -- Clase de Martes
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('03-10-2024', 10, 58); -- Clase de Miércoles
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('05-10-2024', 10, 107); -- Clase de Sábado
+INSERT INTO inscripcion (fecha_inscripcion, id_usuario, id_clase) VALUES ('06-10-2024', 10, 131); -- Clase de Domingo

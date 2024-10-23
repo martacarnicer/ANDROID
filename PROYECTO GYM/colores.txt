@@ -1,0 +1,27 @@
+#5ac45b
+#8ee68e
+#363166
+#343233
+
+verde oscuro
+#068251
+
+verde claro
+#85C485.
+
+Te explico lo que quiero conseguir:
+
+Mas adelante vamos a hacer una seccion de "Mis Reservas" 
+por lo que la persona podrá consultar las clases que tiene reservadas, estas se dividirán entre Pasadas y Próximas.
+
+Como has podido comprobar, las clases no tienen fecha, sino que van por día de la semana, ya que sino sería imposible tener tantos registros al ser cada uno con una fecha distinta.
+
+Por ello, para poder saber en qué fecha es la clase que está reservando el usuario, solo dejo que sea de aquí a 1 semana, por lo tanto, nunca puede haber confusión entre un Viernes y un Viernes porque solo puede reservarse con 1 semana.
+
+Cuando hagamos esa sección, según la fecha en la que se realice la inscripción, podré saber la fecha que se realiza la clase. Por ejemplo:
+
+Hoy es martes 15 de Octubre, si un usuario hace la reserva para el Viernes, al solo poderse hacer con 1 semana de tiempo, sé que sí o sí, la reserva de la clase es del 18/10.
+
+Teniendo en cuenta el uso que le voy a dar la fecha, por favor ayudame a realizarlo.
+No la sección de reservas, eso lo haremos más adelante. Pero sabiendo el uso que se le va a dar, maneja la fecha como tu creas mas conveniente.
+

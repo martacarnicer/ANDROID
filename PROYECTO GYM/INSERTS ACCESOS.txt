@@ -1,0 +1,65 @@
+INSERTS ACCESOS
+
+// SEGUN ID USUARIO !!!!
+
+-- INSERTS para usuarios con cuota "Básica"
+-- Andrés García (ID 11), acceso al Centro 1
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 11, 1);
+
+-- Luis Hernández (ID 13), acceso al Centro 2
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 13, 2);
+
+-- Marta Torres (ID 15), acceso al Centro 3
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 15, 3);
+
+-- Paula Sánchez (ID 17), acceso al Centro 1
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 17, 1);
+
+-- Sara Cruz (ID 19), acceso al Centro 2
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 19, 2);
+
+-- INSERTS para usuarios con cuota "Premium"
+-- Elena Martínez (ID 12), acceso a los centros 1, 2, y 3
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 12, 1);
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 12, 2);
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 12, 3);
+
+-- Sofía Ramírez (ID 14), acceso a los centros 1, 2, y 3
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 14, 1);
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 14, 2);
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 14, 3);
+
+-- Diego López (ID 16), acceso a los centros 1, 2, y 3
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 16, 1);
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 16, 2);
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 16, 3);
+
+-- Juan Vásquez (ID 18), acceso a los centros 1, 2, y 3
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 18, 1);
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 18, 2);
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 18, 3);
+
+-- Victor Pérez (ID 20), acceso a los centros 1, 2, y 3
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 20, 1);
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 20, 2);
+INSERT INTO acceso (fecha_inicio_acceso, fecha_fin_acceso, id_usuario, id_centro) 
+VALUES ('01-10-2024', NULL, 20, 3);

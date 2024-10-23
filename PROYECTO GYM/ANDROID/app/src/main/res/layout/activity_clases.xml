@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ececec">
+
+    <!-- Sección de fondo con imagen -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:id="@+id/imageViewBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/top_background_modified_colors_v3" />
+    </FrameLayout>
+
+    <!-- Seleccionar club -->
+    <TextView
+        android:id="@+id/textSeleccionarClub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona un club:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerClub"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Días de la semana -->
+    <LinearLayout
+        android:id="@+id/layoutDias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/textLunes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="L"
+            android:padding="8dp"
+            android:background="@drawable/day_selector_background" />
+
+        <TextView
+            android:id="@+id/textMartes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="M"
+            android:padding="8dp"
+            android:background="@drawable/day_selector_background" />
+
+        <TextView
+            android:id="@+id/textMiercoles"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="X"
+            android:padding="8dp"
+            android:background="@drawable/day_selector_background" />
+
+        <TextView
+            android:id="@+id/textJueves"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="J"
+            android:padding="8dp"
+            android:background="@drawable/day_selector_background" />
+
+        <TextView
+            android:id="@+id/textViernes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="V"
+            android:padding="8dp"
+            android:background="@drawable/day_selector_background" />
+
+        <TextView
+            android:id="@+id/textSabado"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="S"
+            android:padding="8dp"
+            android:background="@drawable/day_selector_background" />
+
+        <TextView
+            android:id="@+id/textDomingo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="D"
+            android:padding="8dp"
+            android:background="@drawable/day_selector_background" />
+    </LinearLayout>
+
+    <!-- Lista de clases -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewClases"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <!-- ProgressBar para indicar que se están cargando las clases -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+    <Button
+        android:id="@+id/btnVolverDashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:layout_gravity="end"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+    android:background="@drawable/button_rounded_background" />
+
+</LinearLayout>
